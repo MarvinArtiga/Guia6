@@ -1,10 +1,12 @@
 import React from 'react';
-import {View, StyleSheet,Image} from
+import {View, StyleSheet,Image,Text,ScrollView} from
 'react-native';
 const App = () =>{
 return(
 <>
 <View >
+
+  
 <View style={{flexDirection:'row'}} >
 <Image
 style={styles.banner}
